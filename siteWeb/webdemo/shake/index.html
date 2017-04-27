@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+	<title>摇一摇</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+	<script type="text/javascript" src="js/zepto.min.js"></script>
+	<script type="text/javascript" src="js/red.js"></script>
+</head>
+<body>
+<!-- 红包音乐 -->
+<audio id="shakemusic" src="music/red-01.mp3" style="display: none;"></audio>
+<audio id="openmusic" src="music/red-02.mp3" style="display: none;"></audio>
+<!-- End 红包音乐 -->
+<!-- 红包 -->
+<div class="red_bg">
+	<div class="red-ts"></div>
+	<div class="red-ss-bg">
+		<span class="red-ss animated"></span>
+	</div>
+	<div class="red-jh">
+		您还有<span>3</span>次机会
+	</div>
+	<div class="red-tc">
+		<!-- 已中奖 -->
+		<div class="red-yzj">
+			<div class="red-tc-k">
+				<p>￥<span>50.00</span>元</p>
+				恭喜你获得</br>打包幸福代金券
+			</div>
+			<div class="red-tc-btn">
+				<button>查看优惠券</button>
+			</div>
+		</div>
+		<!-- End 已中奖 -->
+		<!-- 未中奖 -->
+		<!-- <div class="red-yzj">
+			<div class="red-tc-k">
+				<img src="img/red-bw.png">
+				哎呀！</br>您的优惠券被风刮走了啊
+			</div>
+			<div class="red-tc-btn">
+				<button>再摇一次</button>
+			</div>
+		</div> -->
+		<!-- End 未中奖 -->
+		<!-- 机会用光了 -->
+		<!-- <div class="red-yzj">
+			<div class="red-tc-k">
+				<img src="img/red-jh.png">
+				机会用光了哦！</br>明天再来吧！
+			</div>
+			<div class="red-tc-btn">
+				<button>返回主页</button>
+			</div>
+		</div> -->
+		<!-- End 机会用光了 -->
+	</div>
+</div>
+<!-- End 红包 -->
+</body>
+</html>
