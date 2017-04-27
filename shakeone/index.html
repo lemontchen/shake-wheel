@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+<meta content="email=no" name="format-detection">
+<title>激想百分百</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+<script type="text/javascript" src="js/zepto.min.js"></script>
+<script type="text/javascript" src="js/red.js"></script>
+</head>
+<body>
+<audio id="shakemusic" src="music/red-01.mp3" style="display: none;"></audio>
+<audio id="openmusic" src="music/red-02.mp3" style="display: none;"></audio>
+<div class="red_bg">
+	<div class="red-ts"></div>
+	<div class="red-ss-bg">
+		<span class="red-ss animated"></span>
+	</div>
+	<div id="list" class="red-jh">
+		 <span id="count">手机摇出5位中奖者</span> 
+	</div>
+	<div class="red-tc">
+		<!-- 已中奖 -->
+		<div id="userout"  class="red-yzj">
+			<div class="red-tc-k">
+				<p id="user">用户</p>
+				恭喜你获得奖品
+			</div>
+			<div class="red-tc-btn">
+				<button id="go">继续抽奖</button>
+			</div>
+		</div>
+		<!-- 机会用光了 -->
+		 <div id="nochance"  class="red-yzj">
+			<div class="red-tc-k">
+				<img src="img/red-jh.png">
+				结束抽奖了哦！ 
+			</div>
+			<div class="red-tc-btn">
+				<button id="home">返回主页</button>
+			</div>
+		</div> 
+		<!-- End 机会用光了 -->
+	</div>
+</div>
+<!-- End 红包 -->
+</body>
+</html>
